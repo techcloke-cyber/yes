@@ -1,0 +1,15 @@
+name: GreatSea
+version: 1.0.0
+main: dev.openai.greatsea.GreatSeaPlugin
+api-version: '1.21'
+authors: [OpenAI]
+description: Generates an ocean-dominant world with scattered islands.
+commands:
+  greatsea:
+    description: Creates or teleports to a Great Sea world.
+    usage: /greatsea [create|tp] [world] [seed]
+    permission: greatsea.use
+permissions:
+  greatsea.use:
+    description: Allows use of the Great Sea command.
+    default: op
