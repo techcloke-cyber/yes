@@ -1,0 +1,17 @@
+{
+  "name": "support-ticket-bot",
+  "version": "1.0.0",
+  "description": "Discord support bot with private ticket channels, claiming, closing, and 10+ slash commands.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}
